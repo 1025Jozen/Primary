@@ -1,0 +1,7 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SampleGame_Watermelon1.CraneController">
+			<method name="Move"/>
+		</type>
+	</assembly>
+</linker>
