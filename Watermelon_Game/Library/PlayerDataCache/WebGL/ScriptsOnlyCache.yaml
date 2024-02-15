@@ -1,11 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - SampleGame_Watermelon1.CraneController
+    - SampleGame_Watermelon.SceneReset
+    - SampleGame_Watermelon4.CraneController
+    - SampleGame_Watermelon4.GameManager
+    - SampleGame_Watermelon4.VegetableManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -111,10 +113,16 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: SampleGame_Watermelon1.CraneController
+    fullTypeName: SampleGame_Watermelon4.GameManager
+    methodName: GameStart
+  - assembly: Assembly-CSharp
+    fullTypeName: SampleGame_Watermelon4.CraneController
     methodName: Move
+  - assembly: Assembly-CSharp
+    fullTypeName: SampleGame_Watermelon4.CraneController
+    methodName: Release
   sceneClasses:
-    Assets/01_Scenes/GameScene1.unity:
+    Assets/01_Scenes/GameScene4.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -129,7 +137,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -146,7 +160,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18846}
     - Class: 114
+      Script: {instanceID: 19152}
+    - Class: 114
       Script: {instanceID: 19230}
+    - Class: 114
+      Script: {instanceID: 19466}
+    - Class: 114
+      Script: {instanceID: 19614}
     - Class: 114
       Script: {instanceID: 20076}
     - Class: 114
@@ -162,7 +182,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 23484}
     - Class: 114
-      Script: {instanceID: 23950}
+      Script: {instanceID: 25418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1318,6 +1338,12 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
+      Hash: 65bcf22cffde3b551e6809222bfd9bea
+    assemblyName: Assembly-CSharp
+    namespaceName: SampleGame_Watermelon
+    className: SceneReset
+  - hash:
+      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1388,13 +1414,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 65bcf22cffde3b551e6809222bfd9bea
-    assemblyName: Assembly-CSharp
-    namespaceName: SampleGame_Watermelon
-    className: SceneReset
   platform: 20
   scenePathNames:
-  - Assets/01_Scenes/GameScene1.unity
-  playerPath: /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/Primary/Build
+  - Assets/01_Scenes/GameScene4.unity
+  playerPath: /Users/jozenyuto/Desktop/Unity_/Unity_Template/Github/Primary/Watermelon_Game/docs

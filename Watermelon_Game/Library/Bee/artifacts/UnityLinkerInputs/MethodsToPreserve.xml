@@ -1,7 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
-		<type fullname="SampleGame_Watermelon1.CraneController">
+		<type fullname="SampleGame_Watermelon4.CraneController">
 			<method name="Move"/>
+			<method name="Release"/>
+		</type>
+		<type fullname="SampleGame_Watermelon4.GameManager">
+			<method name="GameStart"/>
 		</type>
 	</assembly>
 </linker>

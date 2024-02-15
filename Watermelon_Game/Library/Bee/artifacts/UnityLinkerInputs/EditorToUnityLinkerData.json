@@ -21,7 +21,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -30,7 +30,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -46,7 +46,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -55,7 +55,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -71,7 +71,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -91,7 +91,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "SampleGame_Watermelon1.CraneController",
+            "fullManagedTypeName": "SampleGame_Watermelon.SceneReset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SampleGame_Watermelon4.CraneController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SampleGame_Watermelon4.GameManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SampleGame_Watermelon4.VegetableManager",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -171,7 +192,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -222,7 +243,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -231,7 +252,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -240,7 +261,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -249,7 +270,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -258,7 +279,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -267,7 +288,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -276,7 +297,16 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CircleCollider2D",
+            "fullManagedTypeName": "UnityEngine.CircleCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -285,7 +315,7 @@
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -294,7 +324,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -317,7 +347,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -326,7 +356,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -370,7 +400,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -379,7 +409,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -388,7 +418,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -397,7 +427,16 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PhysicsMaterial2D",
+            "fullManagedTypeName": "UnityEngine.PhysicsMaterial2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -413,7 +452,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -422,7 +461,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -438,7 +477,16 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody2D",
+            "fullManagedTypeName": "UnityEngine.Rigidbody2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -447,7 +495,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -456,7 +504,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -465,7 +513,7 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -474,7 +522,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -483,7 +531,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -492,7 +540,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
         },
         {
@@ -501,15 +549,8 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/01_Scenes/GameScene1.unity"
+                "Assets/01_Scenes/GameScene4.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
